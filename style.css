@@ -1,0 +1,147 @@
+* {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+}
+
+header {
+    padding: 20px;
+}
+
+h4 a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #f9fafc;
+    height: 900px;
+    margin: 0;
+}
+
+nav ul li {
+list-style: none;
+padding: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #69696a;
+}
+
+nav ul {
+    padding: 0;
+}
+
+span {
+    color: #000;
+}
+
+button {
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    height: 35px;
+    margin-top: 5px;
+}
+
+main {
+    padding: 20px;
+    margin-top: 60px;
+    
+}
+
+p {
+    padding-left: 20px;
+    border-style: solid;
+    border-color: #69696a;
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    color: #69696a;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 99%;
+    padding: 10px;
+    background-color: rgba(247, 193, 162, 0.7);
+    height: 25px;
+    margin-top: 400px;
+}
+
+h3 {
+    margin: 0;
+}
+
+footer ul {
+    padding: 0;
+    list-style: none;
+    margin: 1px;
+}
+
+footer ul li {
+    display: inline;
+    padding: 5px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #69696a;
+}
+
+@media screen and (min-width: 768px) {
+
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav ul li {
+        display: inline;
+    }
+
+    .button-one {
+        width: auto;
+    }
+
+    .button-two {
+        width: 50%;
+    }
+
+    .circle-one {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        background-color: rgba(247, 136, 167, 0.6);
+        left: 950px;
+        bottom: 160px;
+        position: absolute;
+}
+
+.circle-two {
+    background-color: rgba(247, 193, 162, 0.7);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    left: 1050px;
+    bottom: 85px;
+    position: absolute;
+}
+
+.circle-three {
+
+    background-color: rgba(207, 130, 213, 0.6);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 1110px;
+    bottom: 210px;
+}
+
+}
